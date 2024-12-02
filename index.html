@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Média de Notas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container"> 
+        <h1>Calculadora de Média de Notas</h1>
+
+        <form id="formulario">
+            <label for="nota1" class="label">Nota do 1° Trimestre:</label>
+            <input type="number" id="nota1" class="input" required>
+            
+            <label for="nota2" class="label"> Nota do 2° Trimestre:</label>
+            <input type="number" id="nota2" class="input" required>
+
+            <label for="nota3" class="label"> Nota do 3° Trimestre</label>
+            <input type="number" id="nota3" class="input" required>
+
+            <button type="submit" id="calcular" class="botão"> calcular</button>        
+        </form>    
+        <div id="resultado" class="resultado"> 
+            <!-- Resultado será exibido aqui-->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
