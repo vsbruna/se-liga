@@ -1,4 +1,4 @@
-document.getElementBy('formulario').addEventListener('submit', function (event){
+document.getElementById('formulario').addEventListener('submit', function (event){
     event.preventDefault();
 
     //Obter as notas inseridas pelo usuário
